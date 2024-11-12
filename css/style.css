@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.pink-container {
+    font-family: "Nunito", sans-serif;
+}
+
+.bloc {
+    background-color: #ffd4ce;
+    color: #0584fb;
+    text-align: center;
+    height: 844;
+}
+
+.bloc >h2 {
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+
+.bloc >p {
+    width: 90%;
+    font-size: 20px;
+    padding: 20px 0 30px 0;
+
+}
+.bloc >h1 {
+    padding: 20px 0 0 0;
+    margin-right: 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.bloc >figure> img {
+    width: 100%;
+}
+
+.container-white {
+    text-align: center;
+    height: auto;
+}
+
+.button {
+    text-align: center;
+    margin: 50px;
+}
+
+.button >a {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight:900;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0584fb;
+    margin: 50px;
+    padding: 20px 50px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 8px #333;
+}
+
+.button >a:hover {
+    color: #0584fb;
+    background-color: #fff;
+    border: solid 1px #333;
+}
+
+#last-text {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+
+}
+
+@media screen and (min-width: 1134px) {
+
+    .pink-container {
+        display: flex;
+        font-family: "Nunito", sans-serif;
+    }
+    
+    .bloc {
+        background-color:#ffd4ce;
+        color:#0584fb;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .bloc > h1 {
+        font-size: 4rem;
+        font-weight: 900;
+        margin: 100px 0 0 0;
+    }
+    
+    .bloc > h2 {
+        font-size: 50px;
+        margin: 250px 0 0 0;
+        font-weight: 700;
+    }
+    
+    .bloc >p {
+        font-size: 40px;
+        box-sizing: border-box;
+        margin: 20px 0 0 20px;
+        font-weight: 600;
+    }
+    
+    .bloc >figure> img {
+        width:auto;
+        height: 500px;
+    }
+    
+    .button {
+        text-align: center;
+        font-size: 50px;
+        margin: 50px;
+        
+    }
+    .button >a:hover {
+        color: #0584fb;
+        background-color: #fff;
+        border: solid 2px #0584fb;
+    }
+    
+    .button >a {
+        
+        padding: 20px 50px;
+        text-decoration: none;
+        font-family: "Nunito", sans-serif;
+        font-size: 50px;
+        font-weight: 900;
+        color: #fff;
+        background-color: #0584fb;
+        text-transform: uppercase;
+        border-radius: 100px;
+        box-shadow: 1px 1px 8px #333;
+        
+    }
+    
+    #last-text {
+        text-align: center;
+        font-family: "Nunito", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 50px 0;
+    }
+    
+}
+
+
+
+form {
+    
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0584fb;
+    background-color: #ffd4ce;
+}
+
+#nom, #prenom, #email, #comment {
+    padding: 20px 100px;
+    border-radius: 5px;
+}
+
+
+input, textarea {
+    margin: 40px 0;
+}
