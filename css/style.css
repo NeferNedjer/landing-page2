@@ -53,21 +53,34 @@ table {
     background-color: #ffd4ce;
     color: #0584fb;
     text-align: center;
-    height: 844;
+    
+   
 }
 
 .bloc >h2 {
     font-size: 30px;
     font-weight: 900;
-    
+    margin-bottom: 30px;
 }
 
 .bloc >p {
     width: 90%;
     font-size: 20px;
     padding: 20px 0 30px 0;
-
+    border: 2px solid #0584fb; 
+    box-shadow: 1px 1px 8px #333;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #0584fb;
+    color: #fff;
 }
+
+
+.bloc >p:hover {
+    background-color: #fff;
+    color: #0584fb;
+}
+
 .bloc >h1 {
     padding: 20px 0 0 0;
     margin-right: 20px;
@@ -77,7 +90,9 @@ table {
 
 .bloc >figure> img {
     width: 100%;
+    margin-bottom: 50px;
 }
+
 
 .container-white {
     text-align: center;
@@ -86,19 +101,19 @@ table {
 
 .button {
     text-align: center;
-    margin: 50px;
+    margin: 50px 0;
 }
 
 .button >a {
     font-family: "Nunito", sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight:900;
     text-decoration: none;
     color: #fff;
     background-color: #0584fb;
-    margin: 50px;
-    padding: 20px 50px;
-    border-radius: 100px;
+    margin: 3.125rem;
+    padding: 1.25rem 3.125rem;
+    border-radius: 6.25rem;
     text-transform: uppercase;
     box-shadow: 1px 1px 8px #333;
 }
@@ -130,7 +145,7 @@ table {
     }
     
     .bloc > h1 {
-        font-size: 4rem;
+        font-size: 4.375rem;
         font-weight: 900;
         margin: 100px 0 0 0;
     }
@@ -146,17 +161,27 @@ table {
         box-sizing: border-box;
         margin: 20px 0 0 20px;
         font-weight: 600;
+        border: 2px solid #0584fb; 
+        box-shadow: 1px 1px 8px #0584fb;
+        background-color: #0584fb;
+        color: #fff;
+    }
+
+    .bloc >p:hover {
+        background-color: #fff;
+        color: #0584fb;
     }
     
     .bloc >figure> img {
         width:auto;
-        height: 500px;
+        height: 603px;
+        margin-bottom: 0px;
     }
     
     .button {
         text-align: center;
         font-size: 50px;
-        margin: 50px;
+        margin:50px;
         
     }
     .button >a:hover {
@@ -185,12 +210,12 @@ table {
         font-family: "Nunito", sans-serif;
         font-size: 20px;
         font-weight: 600;
-        margin: 50px 0;
+        margin: 50px 200px;
+        width: 70%;
+        
     }
     
 }
-
-
 
 form {
     
@@ -210,4 +235,16 @@ form {
 
 input, textarea {
     margin: 40px 0;
+}
+
+@media screen and (max-width: 700px) {
+
+    #form {
+        font-size: 20px;
+    }
+
+    #nom, #prenom, #email, #comment {
+        padding: 10px 50px;
+    }
+    
 }
